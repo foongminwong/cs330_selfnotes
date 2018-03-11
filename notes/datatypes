@@ -1,0 +1,40 @@
+-	Variable: stores info and has identifier
+-	Initialization: put value into a variable (not required)
+-	Variable definition
+-	Number literal: number written by a programmer
+-	Double: num with fractional part/in exponential notation
+-	Variable name: NO $ and %, spaces NOT PERMITTED, lowercase recommended, case-sensitive
+-	Change variable : 1. Assignment 2. Increment/decrement by operator 3. Input into them
+-	1. Assignment: store a new value in a variable to replace the previously stored value
+-	Initialization VS assignment
+-	= : copy the value of the expression on the right into the variable on the left
+-	const: define a constant, cannot be changed and must be set when created, in CAPITAL, anti magic numbers
+-	comments: explanantions for human readers of your code/other programmers, compiler ignores comments completely
+-	if you don't initialize a variable, some value will be there, the flotsam left over fromsome previous calculation or simply random value tehre when the transistors in RAM were first turned on.
+-	BETTER to initialize
+-	float vs double: float use half storage of teh double type, it can only store 6-7 digits
+-	long double: quadruple precision
+-	 compiler manufacturer types: long long
+-	C++ standard does nto completely specify the num of bytes or ranges for numeric types.
+- 	the result is larger than an int can hold 
+-	roundoff errors
+= 	#include<cmath>: sqrt, pow, sin,cos, tan, log10(x), abs(x)
+-	operators with same precedence are evaluated from left to right
+-	7/3 is not 7.0/3
+-	<iostream>, carries out input or output, <cstdlib>
+-	cplusplus.com
+-	add 0.5 to round to the nearest integer
+-	use spaces around arithmetic operators, but not in function names
+-	cast: 1. need to store a value into variable of a different type 2. risk of info loss, compiler generally issues a warning 3.conversion of one type to another type, not safe
+-	statis_cats<  the type you want   >() - express a cast in C++
+-	cin >> input
+-	manipulator for formatted output, #include<iomanip>
+-	using namespace std;
+-	setprecision(2)
+-	setw - set width of the next output field, affects the next value
+-	#include<string>
+-	literal strings cannot be concatenated
+-	string functions: substr(start, length), length,
+
+
+
