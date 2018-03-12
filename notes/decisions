@@ -1,0 +1,9 @@
+-	if statement: implement decision, if a condition is fulfilled, then a set of statements is executed, otherwise another set of statements is executed.
+-	brace layout 
+-	indent when nesting
+-	block-structured code
+-	C++: conditional operator
+-	condition ? value1 : value2
+
+
+
