@@ -1,0 +1,33 @@
+Enumerated Types
+Source: https://www.cs.utah.edu/~germain/PPS/Topics/C_Language/enumerated_types.html
+- "Enumerated Types are a special way of creating your own Type in C"
+- "enums have a "builtin" integer value starting at 0."
+
+The Descent of C
+Source: https://www.chiark.greenend.org.uk/~sgtatham/cdescent/
+
+Memory Layout:
+- "items of data are stored in one or more bytes with consecutive addresses..."
+- "C standard library provides a function called ‘memcpy’, which copies a certain number of ‘char’ values (i.e. bytes) from one contiguous memory area to another."
+- "in C, memcpy can copy anything at all – as long as you know the address in memory where your object starts and how many bytes it occupies"
+-  understanding of memory organisation.
+
+Pointers:
+- stores the address of an object of the original type
+- can have pointers to pointers
+- "if you want to write a function that modifies an int variable specified by the caller, you can do it using a pointer. "
+- ‘int *x’ declares x to be a pointer to int; the syntax ‘*x’ inside the function is called a dereference, and means ‘the int value stored at the address given by x’
+- The ‘&’ sign is the opposite of ‘*’
+- "if you want the called function to be able to modify the structure then you have to pass a pointer instead, and there will be an ‘&’ visible at every call site to remind you of that."
+
+- stale pointer: "the address of a piece of memory which used to hold a currently active variable, but doesn't hold one any more"
+- "C lets you take the address of any variable you like"
+
+Arrays are not-bounds-checked:
+-  you are responsible for making sure you don't overrun the bounds of the array
+
+Allocated emory must be manuall freed:
+-
+
+Undefined behaviour:
+- 

@@ -1,0 +1,29 @@
+Lecture 11 : type systems
+Source: https://twodee.org/blog/16571
+- C provide: (types) inetger, real, char, array. struct, pointer, boolean
+- C enum: define a bunch of integer constants.
+- C defines new types using struct
+- use typedef to create shorter name for existing type
+- "If the types are inspected at compile time to figure out what instructions to invoke, we have a static 
+type system. If the types are inspected on the fly at runtime, we have a dynamic type system."
+
+Lecture 12: Type Systems Continued
+Source: https://twodee.org/blog/16572
+- enum
+- static, dynamic and duck typed 
+- "In a static type system, the compiler knows the types at compile time, either because they’ve been explicitly declared or because they’ve been inferred. Because the compiler has some extra information, it can do a lot of work ahead of time as it builds the machine code representation of the program."
+- "In a dynamic type system, all this same work needs to be done, but at runtime instead of compile time."
+- "using  auto is 'when you don’t care about the type.' "
+- safe vs undsafe
+-  C and C++ are UNSAFE
+- Enum in C: "enums in C are one example of unsafe typing. We saw this last time: where an element from the enumerated set is expected, I can sneak in an arbitrary int."
+
+Lecture 13: Types: Safe vs Unsafe
+Source: https://twodee.org/blog/16574
+- recap: static vs. dynamic type systems and explicit vs. implicit
+
+Lecture 14: Polymorphism and More Type Safety
+Source: Polymorphism and More Type Safety
+- a[2] is the same as 2[a]
+- "how enums in C also are not type-safe. The type-checking switch is effectively dialed down from enumerated set to int, making it possible for us to use values that are not enumerated in the set. A really good question to ask yourself is why enums in C aren’t typesafe."
+- 
