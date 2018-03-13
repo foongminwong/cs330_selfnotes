@@ -1,0 +1,19 @@
+Section 6.5.1 enumeration-controlled loops
+
+- Iteration and recursion: mechanisms, allow a computer to perform
+similar operations repeatedly
+
+- imperative vs functional language (see picture)
+
+Programmers in imperative languages tend to use iteration(loops) more than they use
+recursion (recursion is more common in functional languages).
+
+- enumeration-controlled loop VS logically controlled loop
+
+An enumeration-controlled loop is executed
+once for every value in a given finite set; the number of iterations is known before
+the first iteration begins. A logically controlled loop is executed until some Boolean
+condition (which must generally depend on values altered in the loop) changes
+value.
+
+initial value, its bound, and the step size

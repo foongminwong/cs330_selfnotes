@@ -1,0 +1,15 @@
+Sec 7.1.4 Classification of Types
+- boolean (logicals: implemented as single-byte
+quantities, with 1 representing true and 0 representing false)
+
+- C expects an integer; zero means false, and anything else means true.
+
+- C is unusual in its lack of a Boolean type
+
+- characters traditionally/typically one byte using ASCII encoding
+
+- recent languages like Java and C# use a two-byte representation to accommodate the Unicode character set.
+
+Under Enumeration Types
+
+- enumeration is a full-fledged type, incompatible with integers.

@@ -1,4 +1,3 @@
 - enum : enumeration
 - distinct type, value restricted to a range of values 
 - explicitly named constants ("enumerators"). 
-- 
