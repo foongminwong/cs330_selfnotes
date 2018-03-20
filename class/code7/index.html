@@ -1,0 +1,27 @@
+<html>
+
+<head>
+	<title>...</title>
+	<script src = "lexer.js"></script>
+</head>
+<body>
+
+ <textarea id = "ide" rows="8"></textarea>
+ <input type="button" id="run" value = "Run">
+
+<script>
+var ide = document.getElementById('ide');
+
+var run = document.getElementById('run');
+
+run.onclick = function(){
+	//alert(ide.value);
+var source = ide.value;
+var tokens = lex(source);
+}
+</script>
+
+ </body>
+
+
+</html>

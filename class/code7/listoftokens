@@ -1,0 +1,13 @@
+IDENTIFIER (if)
+ID(i)
+OPERATOR (%)
+INTEGER (2)
+OPERATOR (--)
+INTEGER (0)
+
+lexer <-> parser
+
+I see a plus sign go to an accepting ststes, see a *, go to another accpeting stste,
+see a modulus, go to another accepting state, see (digit \d), see integer lietral (to catch as many more by looping)
+
+
